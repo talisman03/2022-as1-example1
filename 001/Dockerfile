@@ -3,7 +3,6 @@
 
 FROM ubuntu:22.04
 
-
 # RUNを使い、slパッケージを入れてみましょう
 RUN apt-get update
 RUN apt-get install -y sl
