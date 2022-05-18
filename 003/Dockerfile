@@ -3,3 +3,4 @@
 
 FROM php:apache
 # COPYを使って `hello.php` を `/var/www/html` に持ち込みましょう
+COPY hello.php /var/www/html/hello.php
